@@ -14,7 +14,7 @@ echo "Download and install rvm... \n"
 curl -L get.rvm.io | bash -s stable
 
 echo "Load rvm in bash... \n"
-source ~/.rvm/scripts/'rvm'
+source /home/gradus/.rvm/scripts/'rvm'
 
 echo "Modifying .bashrc file for autoloading rvm... \n"
 echo "source ~/.rvm/scripts/'rvm'" >> ~/.bashrc

@@ -2,7 +2,7 @@
 
 $KCODE='u'
 
-cd ./file_updater/
+cd /home/gradus/gradus_audio_client/file_updater/
 bundle exec ruby ./cron.rb -Ku
 
 cd ../playlist_creator/

@@ -1,0 +1,7 @@
+source :rubygems
+
+gem "oauth", :path => "vendor/oauth-ruby-2f942922de4d" # , :git => "https://github.com/tmacedo/oauth-ruby.git"
+gem "dropbox-api" #, :path => "../vendor/gems/dropbox-api/"
+gem "sqlite3"
+gem "daemons"
+gem "rspec"

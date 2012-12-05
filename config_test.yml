@@ -1,0 +1,31 @@
+---
+
+# dropbox application settings
+:app_key: o5y30tzpxbqmz7r
+:app_secret: ilbq1j1xf5kbuyk
+:app_mode: sandbox
+
+# dropbox account configs
+:access_token: h0qquk7n5obcmvi
+:access_secret: 4me9x2v872zbjpv
+
+# Папка, куда будут сохраняться файлы, полученные с дропбокса
+:sync_dir: '/home/frank/gradus_test_music'
+
+:adv_blocks_dir: 'adv_blocks'
+:music_dir: 'music'
+
+
+# Уникальные настройки для магазина
+
+# адрес магазина (нужен для вывода в WEB-интерфейса)
+:shop_addr: 'адрес магазина'
+
+# название файла логов для этого магазина (желательно ввиде адреса магазина, транслитом, например: polbina_48.txt)
+:shop_log_filename: 'polbina48.txt'
+
+# Путь к созданному плейлисту
+:playlist_path: '/home/frank/gradus_playlist.xspf'
+
+# Количество рекламных блоков в день
+:blocks_count: 4
